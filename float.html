@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>float 속성- 가로형 메뉴 구현시 많이 사용함.</title>
+    <link href="custom.css" rel="stylesheet"/>
+    <!-- CSS float
+        엘리먼트를 물흐르듯이 왼쪽부터 혹은 오른쪽부터 쌓아감.
+        1) 전체 레이아웃을 잡을 때 float 사용함.
+            -table을 div의 float속성으로 만듦.
+        2) 이미지 갤러리 기능 수행을 할때 사용.
+            -float된 기능을 중지할때 ==> clear 속성을 사용.
+        3) 수평적인 메뉴를 만들 때 사용함.
+            -메뉴를 옆(horizontal)으로 배치할 때(수평적) 사용.
+    -->
+</head>
+<body>
+    <p>
+        아래 문단에서 <b>float:right</b>의 스타일을 적용한
+        이미지를 추가한다.
+        그 결과를 이 이미지는 문단의 오른쪽에 float한다.
+    </p>
+    <p>
+        <img src="css_cascading_style_sheet.jpg" width="95" height="84">
+        This is some text.This is some text.This is some text.This is some text.
+        This is some text.This is some text.This is some text.This is some text.
+        This is some text.This is some text.This is some text.This is some text.
+        This is some text.This is some text.This is some text.This is some text.
+        This is some text.This is some text.This is some text.This is some text.
+        This is some text.This is some text.This is some text.This is some text.
+    </p>
+    <p></p>
+    <h3>이미지 갤러리</h3>
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+
+    <h3 class="second_row">두번째 행</h3>
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+    <img class="thumbnail" src="css_cascading_style_sheet.jpg">
+
+    <p></p>
+    <h3 class="third_row">메뉴</h3>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Contract">Contract</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
